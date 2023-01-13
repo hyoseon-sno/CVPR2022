@@ -25,3 +25,4 @@ class CosineAnnealingScheduler(Callback):
         logs = logs or {}
         logs['lr'] = K.get_value(self.model.optimizer.lr)
 
+#test
