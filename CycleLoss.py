@@ -1,3 +1,5 @@
+import tensorflow.keras.losses as kls
+
 class CircleLoss(kls.Loss):
     
     def __init__(self,gamma: int = 64,margin: float = 0.25,batch_size: int = None,reduction='auto',name=None):
